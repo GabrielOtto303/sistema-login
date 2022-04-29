@@ -1,0 +1,148 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+body{
+    background-color: rgb(17, 8, 52);
+}
+
+.area_login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 6, 84);
+    border-radius: 4px;
+    width: 380px;
+    height: 330px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 15px;
+    background-color: rgb(53, 12, 136);
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    color: rgb(195, 195, 195);
+    outline: none;
+    padding: 4px;
+}
+
+input::placeholder{
+    color: rgb(195, 195, 195);
+}
+
+.login form [type="submit"]{
+    display: block;
+    background-color: rgb(50, 83, 175);
+    margin-top: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}
+
+/*####################################################*/
+.cadastroUsuarios{
+    float: left;
+}
+
+.botaoSair{
+    margin-left: 20px;
+}
+
+.mensagem{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundo {
+    color: rgb(195, 195, 195);
+    padding-top: 20px;
+}
+
+.conteudo{
+    padding: auto;
+    padding-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo input{
+    margin-top: 15px;
+    background-color: rgb(53, 12, 136);
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    height: 40px;
+    color: rgb(195, 195, 195);
+    outline: none;
+    padding: 4px;
+}
+
+.conteudo form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.conteudo form [type="submit"]{
+    display: block;
+    background-color: rgb(50, 83, 175);
+    width: 80px;
+    font-weight: bold;
+}
+
+.conteudo table [type="submit"]{
+    display: block;
+    background-color: rgb(50, 83, 175);
+    font-weight: bold;
+    width: 60px;
+    right: 30px;
+}
+
+.conteudo table{
+    margin-left: 20px;
+    display: block;
+}
+
+.conteudo tbody{
+    border-top: solid rgb(195, 195, 195) 3px;
+}
+.conteudo td{
+    border-top: solid rgb(195, 195, 195) 1px;
+}
+
+
+.botaoSair button{
+   background-color: rgb(50, 83, 175);
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 4px;
+}
+
+.botaoSair button a{
+    color: rgb(195, 195, 195);
+}
+
+
