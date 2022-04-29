@@ -25,6 +25,10 @@ body{
     padding: 35px;
 }
 
+.login h6{
+    color: rgb(195, 195, 195);
+}
+
 .login form{
     display: flex;
     flex-direction: column;
